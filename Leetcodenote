@@ -1,2 +1,14 @@
 leetcode note
 
+50. Pow(x, n)
+Answer:
+判断n是否可以除2，不可以的话，用当前数乘x;x始终与自己相乘（因为n除2了）。
+
+24. Swap Nodes in Pairs
+Answer:
+设定两个指针，当前元素cur，和当前元素之前的元素prev。设prev的下一个是当前元素的下个，当前元素的下一个是自己的下下个，当前元素是prev的下下个。
+将当前元素变为prev，继续对接下来两个元素进行处理。
+
+31. Next Permutation
+Answer:
+
